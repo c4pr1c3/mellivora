@@ -23,7 +23,7 @@ function head($title = '') {
     <link rel="icon" href="',CONFIG_SITE_URL,'img/favicon.png" type="image/png" />
 
     <!-- CSS -->
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="',CONFIG_SITE_URL,'bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="',CONFIG_SITE_URL,'css/mellivora.css" rel="stylesheet">';
 
     js_global_dict();
@@ -121,8 +121,8 @@ function foot () {
 </div> <!-- /container -->
 </div> <!-- /page -->
 <!-- JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="',CONFIG_SITE_URL,'js/jquery/1.9.1/jquery.min.js"></script>
+<script src="',CONFIG_SITE_URL,'bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="',CONFIG_SITE_URL,'js/mellivora.js"></script>
 
 </body>
